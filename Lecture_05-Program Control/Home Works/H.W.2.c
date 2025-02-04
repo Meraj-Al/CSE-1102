@@ -8,16 +8,11 @@ int main()
 
     printf("Enter three integers: ");
     scanf("%d %d %d", &num1, &num2, &num3);
-
-
+    
     if (num2 == num1 + 1 && num3 == num2 + 1)
-    {
         printf("The numbers %d, %d, and %d are in successive increase order.\n", num1, num2, num3);
-    }
     else
-    {
         printf("The numbers %d, %d, and %d are NOT in successive increase order.\n", num1, num2, num3);
-    }
 
     return 0;
 }
