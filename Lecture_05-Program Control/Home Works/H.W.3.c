@@ -11,22 +11,17 @@ Write a program that reads the water consumption in cubic meters and displays th
 
 int main() {
     double consumption, bill = 10.0;
-
-
+    
     printf("Enter water consumption in cubic meters: ");
     scanf("%lf", &consumption);
 
     if (consumption <= 30) {
-
-        bill += consumption * 0.6;
+         bill += consumption * 0.6;
     } else if (consumption <= 50) {
-
-        bill += 30 * 0.6 + (consumption - 30) * 0.8;
+         bill += 30 * 0.6 + (consumption - 30) * 0.8;
     } else if (consumption <= 60) {
-
-        bill += 30 * 0.6 + 20 * 0.8 + (consumption - 50) * 1.0;
+         bill += 30 * 0.6 + 20 * 0.8 + (consumption - 50) * 1.0;
     } else {
-
         bill += 30 * 0.6 + 20 * 0.8 + 10 * 1.0 + (consumption - 60) * 1.2;
     }
 
