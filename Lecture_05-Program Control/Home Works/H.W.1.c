@@ -4,7 +4,7 @@
 
 int main()
 {
-    double num1, num2, sum, absSum;
+    double num1, num2, sum, Abs;
 
 
     printf("Enter two double numbers : ");
@@ -14,11 +14,11 @@ int main()
 
 
     if (sum < 0)
-        absSum = -sum;
+        Abs = -sum;
     else
-        absSum = sum;
+        Abs = sum;
 
-    printf("The absolute value of the sum is: %lf\n", absSum);
+    printf("The absolute value of the sum is: %lf\n", Abs);
 
     return 0;
 }
