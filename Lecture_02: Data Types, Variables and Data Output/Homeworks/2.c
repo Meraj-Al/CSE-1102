@@ -4,7 +4,7 @@ int main()
 {
     int i = 20, j = 50;
     double k;
-    k = (double)i/j;//The result of their division is decimal number, so we use double
+    k = (double)i/j;
     printf("%f \n", k);
     return 0;
 }
