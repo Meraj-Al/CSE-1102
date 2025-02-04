@@ -10,3 +10,5 @@ int main()
 /*Output is:
 5 1 2
 */
+
+//The compound operator are executed from right to left
