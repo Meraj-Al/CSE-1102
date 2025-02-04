@@ -1,3 +1,6 @@
+/*Write a program that reads the minimum score required to pass the exams, the grades
+of three students, and displays how many of them succeeded.*/
+
 #include<stdio.h>
 int main()
 {
