@@ -16,7 +16,7 @@ int main() {
 Compute X,
 Compute 2 * 5 → 10.
 
-Compute 3 / 5 (integer division truncates to 0), then 0 * 7 → 0.
+Compute 3 / 5 (integer division makes it 0), then 0 * 7 → 0.
 
 Compute (4 - 2) * 2 → 2 * 2 → 4.
 
