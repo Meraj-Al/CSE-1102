@@ -8,3 +8,6 @@ int main()
     printf("%f \n", k);
     return 0;
 }
+
+//Output is 0.400000.
+//The result of i/j is float number. SO, we use type casting to make the value of i double.
