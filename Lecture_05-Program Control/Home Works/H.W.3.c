@@ -1,10 +1,10 @@
 /*
 A water supply company charges the water consumption, as follows:
-a Fixed amount of 10.0 Taka
-b For the first 30 cubic meters, 0.6 Taka per cubic meter
-c For the next 20 cubic meters, 0.8 Taka per cubic meter
-d For the next 10 cubic meters, 1.0 Taka per cubic meter
-e For every additional meter, 1.2 Taka per cubic meter
+a. Fixed amount of 10.0 Taka
+b. For the first 30 cubic meters, 0.6 Taka per cubic meter
+c. For the next 20 cubic meters, 0.8 Taka per cubic meter
+d. For the next 10 cubic meters, 1.0 Taka per cubic meter
+e. For every additional meter, 1.2 Taka per cubic meter
 Write a program that reads the water consumption in cubic meters and displays the bil
 */
 #include <stdio.h>
