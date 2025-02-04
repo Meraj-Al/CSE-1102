@@ -1,3 +1,7 @@
+/*Write a program that reads a positive integer and rounds it up to the next highest
+power of 2. For example, if the user enters 35, the program should display 64, which is
+the next highest power of 2 since 25 = 32 < 35 < 64 = 2 to the power 6.
+*/
 #include <stdio.h>
 
 int main() {
