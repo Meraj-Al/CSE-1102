@@ -8,4 +8,4 @@ int main()
     return 0;
 }
 
-/*Out put is V1=400,V2=200*/
+/*Output is V1=400,V2=200*/
