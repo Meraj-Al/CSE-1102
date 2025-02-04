@@ -4,9 +4,9 @@
 int main()
 {
     float radius;
-    float PI = 3.1416;
+    float pi = 3.1416;
     printf("Enter radius: ");
     scanf("%f", &radius);
-    printf("%f %f\n", PI*radius*radius, 2*PI*radius);
+    printf("%f %f\n", pi*radius*radius, 2*pi*radius);
     return 0;
 }
