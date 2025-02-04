@@ -9,6 +9,9 @@ int main() {
     printf("%d\n", k); // Output: -4
     return 0;
 }
+// Output: -4
+
+
 /*
 Compute X,
 Compute 2 * 5 → 10.
