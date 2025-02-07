@@ -1,7 +1,7 @@
 /*
 Write a program that declares an array of 5 integers and assigns the values 10, 20,
 30, 40, and 50 to its elements. Next, the program should display the elements greater
-than 20.
+than 20
 */
 #include <stdio.h>
 int main()
