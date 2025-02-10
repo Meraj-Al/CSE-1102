@@ -1,3 +1,6 @@
+//Write a program that reads an integer and displays the number of its digits and their sum.
+
+
 #include <stdio.h>
 int main()
 {
