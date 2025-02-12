@@ -17,7 +17,6 @@ int main()
     }
     return 0;
 }
-
 /*Output is:
 One Two One One
 */
