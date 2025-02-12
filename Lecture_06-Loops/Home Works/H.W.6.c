@@ -1,4 +1,5 @@
 //Write a program that displays the sum of all numbers from 1 to 200.
+
 #include <stdio.h>
 int main()
 {
