@@ -1,4 +1,5 @@
 //Write a program that reads a positive integer and displays the maximum positive integer n for which the sum m 12 + 22 + 32 + ... + n2 is less than the given number.
+
 #include <stdio.h>
 int main()
 {
