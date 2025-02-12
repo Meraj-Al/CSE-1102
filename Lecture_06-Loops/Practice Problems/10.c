@@ -1,5 +1,6 @@
 /*Write a program that reads an integer N > 3 and calculates the result of the expression R1 = 1/1 − 1/2 + 1/3 − 1/4 + … 1/N. The program should force the user
 to enter an integer greater than 3.*/
+
 #include <stdio.h>
 int main()
 {
