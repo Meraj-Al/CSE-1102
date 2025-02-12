@@ -9,7 +9,6 @@ int main() {
     int N;
     double sum = 0.0;
 
-
     do {
         printf("Enter an odd integer (>=3): ");
         scanf("%d", &N);
