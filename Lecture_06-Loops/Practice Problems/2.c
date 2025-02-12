@@ -1,4 +1,5 @@
 //Write a program that reads the grades of 10 students and displays those within [5, 10].
+
 #include <stdio.h>
 int main()
 {
