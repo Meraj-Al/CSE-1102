@@ -8,6 +8,7 @@ Write a program that produces the following output.
 * *
 *
 */
+
 #include <stdio.h>
 
 int main() {
