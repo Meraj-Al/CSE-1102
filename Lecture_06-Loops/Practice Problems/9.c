@@ -1,4 +1,5 @@
 //Write a program that reads a float number (i.e., a) and an integer (i.e., b) and displays the result of ab.
+
 #include <stdio.h>
 int main()
 {
