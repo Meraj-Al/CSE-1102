@@ -10,6 +10,7 @@ grid cell should be 3×2 characters wide. As an example, a 3×5 grid follows:
 +−−+−−+−−+−−+−−+
 The three horizontal characters of each cell should be +−− and the two verticals +|
 */
+
 #include <stdio.h>
 
 int main()
