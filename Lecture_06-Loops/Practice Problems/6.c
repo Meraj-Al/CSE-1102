@@ -1,4 +1,5 @@
 //Write a program that reads an integer and displays the prime numbers that are less than or equal to it.
+
 #include <stdio.h>
 int main()
 {
