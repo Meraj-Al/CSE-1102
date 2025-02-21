@@ -1,6 +1,6 @@
 # CSE-1102 - Programming Problems 💻📚
 
-All programming problems from the course lectures.
+This repository contains all programming problems and solutions from the CSE-1102 course lectures. Each lecture folder includes relevant C programs that demonstrate key programming concepts.
 
 ## 📑 Table of Contents
 - [Lecture 02: Data Types, Variables, and Data Output](#lecture-02-data-types-variables-and-data-output)
