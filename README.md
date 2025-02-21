@@ -45,9 +45,6 @@ Contributions are welcome! If you would like to add improvements, follow these s
 4. Push to the branch (`git push origin feature-branch`)
 5. Create a pull request
 
-## License
-This project is open-source and available under the [MIT License](LICENSE).
-
 ## Contact
 Maintainer: [M-F-Tushar](https://github.com/M-F-Tushar)
 
