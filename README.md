@@ -4,15 +4,15 @@
 This repository contains all programming problems and solutions from the CSE-1102 course lectures. Each lecture folder includes relevant C programs that demonstrate key programming concepts.
 
 ## Table of Contents
-- [Lecture 02: Data Types, Variables, and Data Output](Lecture_02-Data_Types_Variables_and_Data_Output/)
-- [Lecture 03: Getting Input with scanf()](Lecture_03-Getting_Input_with_scanf/)
-- [Lecture 04: Operators](Lecture_04-Operators/)
-- [Lecture 05: Program Control](Lecture_05-Program_Control/)
-- [Lecture 06: Loops](Lecture_06-Loops/)
-- [Lecture 07: Arrays](Lecture_07-Arrays/)
-- [Lecture 08: Pointers](Lecture_08-Pointers/)
-- [Lecture 09: Characters and Strings](Lecture_09-Characters_and_Strings/)
-- [Lecture 10: Functions](Lecture_10-Functions/)
+- [Lecture 02: Data Types, Variables, and Data Output](Lecture_02/Data_Types_Variables_and_Data_Output/)
+- [Lecture 03: Getting Input with scanf()](Lecture_03/Getting_Input_with_scanf/)
+- [Lecture 04: Operators](Lecture_04/Operators/)
+- [Lecture 05: Program Control](Lecture_05/Program_Control/)
+- [Lecture 06: Loops](Lecture_06/Loops/)
+- [Lecture 07: Arrays](Lecture_07/Arrays/)
+- [Lecture 08: Pointers](Lecture_08/Pointers/)
+- [Lecture 09: Characters and Strings](Lecture_09/Characters_and_Strings/)
+- [Lecture 10: Functions](Lecture_10/Functions/)
 
 ## Getting Started
 ### Prerequisites
@@ -29,7 +29,7 @@ To run the C programs in this repository, ensure you have a C compiler installed
    ```
 2. Navigate to the desired lecture folder:
    ```sh
-   cd Lecture_06-Loops
+   cd Lecture_06/Loops
    ```
 3. Compile and run a C program:
    ```sh
