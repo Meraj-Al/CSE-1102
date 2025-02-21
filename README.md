@@ -22,8 +22,8 @@ Chandpur Science and Technology University
 
 **Mostafiz Ahammed**  
 Lecturer  
-Department of Computer Science and Engineering 
-Chandpur Science and Technology University  
+Department of Computer Science and Engineering
+Chandpur Science and Technology University 
 
 ---
 
