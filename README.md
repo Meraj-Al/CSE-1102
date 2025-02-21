@@ -1,49 +1,68 @@
-# CSE-1102
+# CSE-1102 - Programming Problems 💻📚
 
-## Overview
-This repository contains all programming problems and solutions from the CSE-1102 course lectures. Each lecture folder includes relevant C programs that demonstrate key programming concepts.
+All programming problems from the course lectures.
 
-## Table of Contents
-- [Lecture 02: Data Types, Variables, and Data Output](Lecture_02/Data_Types_Variables_and_Data_Output/)
-- [Lecture 03: Getting Input with scanf()](Lecture_03/Getting_Input_with_scanf/)
-- [Lecture 04: Operators](Lecture_04/Operators/)
-- [Lecture 05: Program Control](Lecture_05/Program_Control/)
-- [Lecture 06: Loops](Lecture_06/Loops/)
-- [Lecture 07: Arrays](Lecture_07/Arrays/)
-- [Lecture 08: Pointers](Lecture_08/Pointers/)
-- [Lecture 09: Characters and Strings](Lecture_09/Characters_and_Strings/)
-- [Lecture 10: Functions](Lecture_10/Functions/)
+## 📑 Table of Contents
+- [Lecture 02: Data Types, Variables, and Data Output](#lecture-02-data-types-variables-and-data-output)
+- [Lecture 03: Getting Input with scanf()](#lecture-03-getting-input-with-scanf)
+- [Lecture 04: Operators](#lecture-04-operators)
+- [Lecture 05: Program Control](#lecture-05-program-control)
+- [Lecture 06: Loops](#lecture-06-loops)
+- [Lecture 07: Arrays](#lecture-07-arrays)
+- [Lecture 08: Pointers](#lecture-08-pointers)
+- [Lecture 09: Characters and Strings](#lecture-09-characters-and-strings)
+- [Lecture 10: Functions](#lecture-10-functions)
 
-## Getting Started
-### Prerequisites
-To run the C programs in this repository, ensure you have a C compiler installed, such as:
-- GCC (GNU Compiler Collection)
-- Clang
-- MSVC (for Windows users)
+---
 
-### Running the Code
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/M-F-Tushar/CSE-1102.git
-   cd CSE-1102
-   ```
-2. Navigate to the desired lecture folder:
-   ```sh
-   cd Lecture_06/Loops
-   ```
-3. Compile and run a C program:
-   ```sh
-   gcc example.c -o example
-   ./example
-   ```
+## 📘 Lecture Details
 
-## Contributions
-Contributions are welcome! If you would like to add improvements, follow these steps:
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature-branch`)
-3. Commit your changes (`git commit -m 'Add a new feature'`)
-4. Push to the branch (`git push origin feature-branch`)
-5. Create a pull request
+### Lecture 02: Data Types, Variables, and Data Output
+📂 [Homeworks](Lecture_02-Data_Types_Variables_and_Data_Output/Homeworks/)  
+
+### Lecture 03: Getting Input with scanf()
+📂 [Homeworks](Lecture_03-Getting_Input_with_scanf/Home_works/)  
+
+### Lecture 04: Operators
+📂 [Homeworks](Lecture_04-Operators/Home_Works/)  
+📂 [Practice Problems](Lecture_04-Operators/Practice_Problems/)
+
+### Lecture 05: Program Control
+📂 [Homeworks](Lecture_05-Program_Control/Home_Works/)  
+📂 [Practice Problems](Lecture_05-Program_Control/Practice_Problems/)
+
+### Lecture 06: Loops
+📂 [Homeworks](Lecture_06-Loops/Home_Works/)  
+📂 [Practice Problems](Lecture_06-Loops/Practice_Problems/)
+
+### Lecture 07: Arrays
+📂 [Homeworks](Lecture_07-Arrays/Home_Works/)  
+📂 [Practice Problems](Lecture_07-Arrays/Practice_Problems/)
+
+### Lecture 08: Pointers
+📂 [Homeworks](Lecture_08-Pointers/Home_Works/)  
+📂 [Practice Problems](Lecture_08-Pointers/Practice_Problems/)
+
+### Lecture 09: Characters and Strings
+📂 [Homeworks](Lecture_09-Characters_and_Strings/Home_Works/)  
+📂 [Practice Problems](Lecture_09-Characters_and_Strings/Practice_Problems/)
+
+### Lecture 10: Functions
+📂 [Homeworks](Lecture_10-Functions/Home_Works/)  
+📂 [Practice Problems](Lecture_10-Functions/Practice_Problems/)
+
+---
+
+## 📜 How to Use
+1. Navigate to the lecture folder.
+2. Choose `Homeworks` or `Practice Problems` to find related C programs.
+3. Open and study the code to understand problem solutions.
+
+## 🛠 Contributions
+Contributions are welcome! Feel free to fork and submit a pull request.
+
+## ⭐ Support
+If you found this helpful, consider starring ⭐ this repository!
 
 ## Contact
 Maintainer: [M-F-Tushar](https://github.com/M-F-Tushar)
