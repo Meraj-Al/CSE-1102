@@ -1,9 +1,9 @@
-# CSE-1102 - Programming Problems 💻📚
+# CSE-1102 - Programming Problems 📘
 
 This repository contains all programming problems and solutions from the CSE-1102 course lectures. Each lecture folder includes relevant C programs that demonstrate key programming concepts.
 
-## 📑 Table of Contents
-- [Lecture 02: Data Types, Variables, and Data Output](#lecture-02-data-types-variables-and-data-output)
+## Table of Contents 📜
+- [Lecture 02: Data Types, Variables and Data Output](#lecture-02-data-types-variables-and-data-output)
 - [Lecture 03: Getting Input with scanf()](#lecture-03-getting-input-with-scanf)
 - [Lecture 04: Operators](#lecture-04-operators)
 - [Lecture 05: Program Control](#lecture-05-program-control)
@@ -12,6 +12,18 @@ This repository contains all programming problems and solutions from the CSE-110
 - [Lecture 08: Pointers](#lecture-08-pointers)
 - [Lecture 09: Characters and Strings](#lecture-09-characters-and-strings)
 - [Lecture 10: Functions](#lecture-10-functions)
+
+## Instructors 👨‍🏫
+
+**Md. Jahidul Islam**  
+Lecturer and Chairman (in charge)  
+Department of Computer Science and Engineering  
+Chandpur Science and Technology University  
+
+**Mostafiz Ahammed**  
+Lecturer  
+Department of Computer Science and Engineering 
+Chandpur Science and Technology University  
 
 ---
 
@@ -53,16 +65,17 @@ This repository contains all programming problems and solutions from the CSE-110
 
 ---
 
-## 📜 How to Use
-1. Navigate to the lecture folder.
-2. Choose `Homeworks` or `Practice Problems` to find related C programs.
-3. Open and study the code to understand problem solutions.
+## How to Use 🛠️
+Each lecture folder contains:
+- **Homeworks 📑** - Assignments based on lecture topics.
+- **Practice Problems 🏋️** - Problems to strengthen understanding.
 
-## 🛠 Contributions
-Contributions are welcome! Feel free to fork and submit a pull request.
+## Contributions 🤝
+Feel free to contribute by submitting pull requests or reporting issues!
 
-## ⭐ Support
-If you found this helpful, consider starring ⭐ this repository!
+---
+⭐ Star this repository if you found it helpful!
+
 
 ## Contact
 Maintainer: [M-F-Tushar](https://github.com/M-F-Tushar)
