@@ -3,7 +3,7 @@
 This repository contains all programming problems and solutions from the CSE-1102 course lectures. Each lecture folder includes relevant C programs that demonstrate key programming concepts.
 
 ## Table of Contents 📜
-- [Lecture 02: Data Types, Variables and Data Output](#lecture-02-data-types-variables-and-data-output)
+- [Lecture 02: Data Types, Variables and Data Output](https://github.com/M-F-Tushar/CSE-1102/tree/main/Lecture_02%3A%20Data%20Types%2C%20Variables%20and%20Data%20Output)
 - [Lecture 03: Getting Input with scanf()](#lecture-03-getting-input-with-scanf)
 - [Lecture 04: Operators](#lecture-04-operators)
 - [Lecture 05: Program Control](#lecture-05-program-control)
