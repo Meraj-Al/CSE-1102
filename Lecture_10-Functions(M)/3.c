@@ -1,3 +1,4 @@
+//How to add to two number using function
 #include<stdio.h>
 
 int sum(int a, int b)
