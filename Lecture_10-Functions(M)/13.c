@@ -1,3 +1,5 @@
+//Find Greatest Common Divisor using function
+
 #include <stdio.h>
 
 int gcd(int A, int B) {
