@@ -1,4 +1,4 @@
-//Caller , Calle
+//Convert Cent to farh using function
 #include<stdio.h>
 float cent_to_farh(cent)
 {
