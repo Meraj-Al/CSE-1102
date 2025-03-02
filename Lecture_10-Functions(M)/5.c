@@ -17,15 +17,15 @@ int main()
 }
 /*
 1. Pass by Value
-A copy of the actual parameter is passed to the function.
-Any modification made to the parameter inside the function does not affect the original value.
-The function works with the copied value, not the original variable.
-Used for simple data types like int, float, char, etc.
+(i) A copy of the actual parameter is passed to the function.
+(ii) Any modification made to the parameter inside the function does not affect the original value.
+(iii) The function works with the copied value, not the original variable.
+(iv) Used for simple data types like int, float, char, etc.
 
 2. Pass by Reference (Using Pointers)
-Instead of passing the value, the memory address (reference) of the variable is passed.
-Any modification inside the function affects the original variable.
-Used for modifying variables, passing large structures efficiently, and dynamic memory allocation.
+(i) Instead of passing the value, the memory address (reference) of the variable is passed.
+(ii) Any modification inside the function affects the original variable.
+(iii) Used for modifying variables, passing large structures efficiently, and dynamic memory allocation.
 
 Key Differences:
 Aspect	                    Pass by Value   	                                Pass by Reference
