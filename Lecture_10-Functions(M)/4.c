@@ -15,3 +15,4 @@ int main()
     printf("After swap value of var1 and var2 is: %d,%d",var1,var2);
     return 0;
 }
+//This example is just for showing pass by value. It does not give desire output
