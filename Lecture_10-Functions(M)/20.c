@@ -1,5 +1,5 @@
 //C Program to Find the Factorial of a Natural Number using Tail Recursion.
-// C program to find the factorail using tail recursion
+
 #include <stdio.h>
 int factorialTail(int n, int res)
 {
