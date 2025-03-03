@@ -1,5 +1,5 @@
 // C Program to find the Fibonacci Number using Tree Recursion
-// C Program to find the fibonacci number using tree
+
 // recursion
 #include <stdio.h>
 int fibonacci(int n)
