@@ -1,4 +1,3 @@
-
 // C Program to calculate the sum of first N natural numbers using recursion
 #include <stdio.h>
 int nSum(int n)
