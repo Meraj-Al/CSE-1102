@@ -8,7 +8,7 @@ if (n == 0) {
 return 0;
 }
 // recursive case / recursive call
-int res = n + nSum(n - 1);
+int res = n + nSum(n - 1);//5+(5-1)+(4-1)+(3-1)+(2-1)+ 0 = 15
 return res;
 }
 int main()
