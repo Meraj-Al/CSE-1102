@@ -1,4 +1,3 @@
-//C Program to Illustrate the Indirect Recursion
 // C Program to Illustrate the Indirect Recursion
 #include <stdio.h>
 void functionA(int n)
