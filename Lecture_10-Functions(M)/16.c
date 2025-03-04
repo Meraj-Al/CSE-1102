@@ -1,5 +1,5 @@
+//Use Recursion to find factorial 
 #include <stdio.h>
-
 // Function to calculate factorial
 long long factorial(int n) {
     if (n == 0 || n == 1)
