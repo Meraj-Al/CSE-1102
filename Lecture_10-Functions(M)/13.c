@@ -20,10 +20,8 @@ int main() {
     printf("GCD of %d and %d is %d\n", x, y, z);
     return 0;
 }
+/*
 Input:
-yaml
-Copy
-Edit
 Enter two numbers: 56 98
 Process (Using Euclidean Algorithm):
 gcd(56, 98)
@@ -40,4 +38,5 @@ Output:
 csharp
 Copy
 Edit
+*/
 GCD of 56 and 98 is 14
