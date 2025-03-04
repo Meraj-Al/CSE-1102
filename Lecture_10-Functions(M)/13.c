@@ -34,9 +34,6 @@ gcd(14, 42)
 42 % 14 = 0
 B = 14, A = 0
 A is now 0, so B = 14 is returned as the GCD.
-Output:
-csharp
-Copy
-Edit
+Output: GCD of 56 and 98 is 14
 */
-GCD of 56 and 98 is 14
+
