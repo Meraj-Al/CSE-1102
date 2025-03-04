@@ -3,8 +3,8 @@ Difference Between Direct and Indirect Recursion
 Recursion is a programming technique where a function calls itself. It can be classified into Direct Recursion and Indirect Recursion based on how the function calls occur.
 
 Feature	                      Direct Recursion	                          Indirect Recursion
-Definition	                  A function calls itself directly.	           A function calls another function, which in turn calls the original function.
-Number of Functions Involved	Only one function is involved.	T            wo or more functions call each other in a loop.
+Definition	                  A function calls itself directly.	           A function calls another function, which                                                                               in turn calls the original function.
+Number of Functions Involved	Only one function is involved.	              Two or more functions call each other in                                                                               a loop.
 Example                        void funcA(int n) { if (n == 0) return; printf("%d ", n); funcA(n - 1); }	 void funcA(int n) { if (n <= 0) return; printf("%d ", n); funcB(n - 1); } void funcB(int n) { if (n <= 0) return; printf("%d ", n); funcA(n - 2); }
 Call Structure	funcA → funcA → funcA ...	funcA → funcB → funcA → funcB ...
 Complexity	                    Usually easier to analyze and debug.	          More complex due to multiple functions calling each other.
