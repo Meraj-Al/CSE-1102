@@ -13,6 +13,7 @@ int main() {
     return 0;
 }
 /*
+
 # Step-by-Step Execution:
 
 fun(5) returns 2 * fun(4)
