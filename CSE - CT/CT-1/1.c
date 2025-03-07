@@ -1,5 +1,4 @@
 //Explain Inline funtion and it's working with example
-
 /*
 Inline Function: An inline function is a function that is expanded in line when it is called. 
 When the inline function is called, the compiler replaces the function call with the function code itself.
