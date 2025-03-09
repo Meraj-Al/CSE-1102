@@ -9,4 +9,10 @@ int main()
 }
 /*Output is:
 1
+
+Double Logical NOT (!!a)
+
+!a: The logical NOT (!) operator converts a to a boolean (true/false).
+If a is nonzero, !a becomes 0 (false).
+If a is 0, !a becomes 1 (true).
 */
