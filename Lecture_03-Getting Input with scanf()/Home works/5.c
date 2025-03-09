@@ -1,5 +1,5 @@
-/*Write a program that reads a two-digit positive integer and displays its reverse. For example, if the user enters the number 72, the program should display 27. Use a
-single integer variable.*/
+/*Write a program that reads a two-digit positive integer and displays its reverse. For example, if the user enters the number 72, 
+the program should display 27. Use a single integer variable.*/
 #include <stdio.h>
 int main()
 {
