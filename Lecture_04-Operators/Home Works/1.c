@@ -24,4 +24,9 @@ int main()
 
     return 0;
 }
-
+/*
+Boolean Expressions in C:
+In C, conditions like (stu_mark1 >= min) return 1 if true and 0 if false.
+Addition of Boolean Values:
+Since true evaluates to 1 and false to 0, adding them together counts the number of true conditions.
+*/
