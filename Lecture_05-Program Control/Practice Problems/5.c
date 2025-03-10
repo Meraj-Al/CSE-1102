@@ -31,3 +31,23 @@ int main()
     }
     return 0;
 }
+/*
+Short version
+
+#include <stdio.h>
+
+int main() {
+    float i, j, k, temp;
+    printf("Enter grades: ");
+    scanf("%f%f%f", &i, &j, &k);
+
+    // Sorting using the swap technique (Bubble sort for 3 numbers)
+    if (i > j) { temp = i; i = j; j = temp; }
+    if (i > k) { temp = i; i = k; k = temp; }
+    if (j > k) { temp = j; j = k; k = temp; }
+
+    printf("Sorted grades: %f %f %f\n", i, j, k);
+    return 0;
+}
+
+*/
