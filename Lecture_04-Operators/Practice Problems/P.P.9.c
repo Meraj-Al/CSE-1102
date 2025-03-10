@@ -9,4 +9,10 @@ int main()
 }
 /*Output is:
 0
+
+a - 4 evaluates to 4 - 4 = 0
+(b++ == c) evaluates:
+b is 5, c is 6.
+b++ == c means first comparing b with c (i.e., 5 == 6 which is false or 0).
+Then b is incremented to 6.
 */
