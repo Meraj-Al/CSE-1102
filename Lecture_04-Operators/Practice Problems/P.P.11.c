@@ -8,20 +8,9 @@ printf("Val = %d\n", a);
 return 0;
 }
 /*
-Step-by-Step Execution:
-Initialize char a = 8
-
-8 in binary (8-bit representation):
-00001000  (decimal 8)
-Left Shift a <<= 4
-
-This means shifting all bits 4 places to the left:
-00001000 << 4  →  10000000
-The result in binary is 10000000, which is -128 in two's complement (since char is signed by default).
-Printing a
-
-%d is used in printf, which promotes char to int.
-The value of a is -128 in decimal.
-Final Output:
-Val = -128
+The expression a <<= 4 shifts the value of a four places to the left and makes
+it 10000000. Since the variable a is declared as char, the leftmost bit is reserved
+for the sign of the number. If its value is 1, the number is negative, otherwise it is
+positive, so the program displays Val = −128. If the variable a were declared as
+unsigned char, the program would display Val = 128.
 */
