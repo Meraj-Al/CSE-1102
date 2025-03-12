@@ -2,11 +2,16 @@
 #include <stdio.h>
 int main()
 {
-    int a = 5, b = 7, c = 3;
-    if(a < b < c)
+    int a, b;
+    a = b = 9;
+    if(++a == b++)
         printf("One\n");
     else
         printf("Two\n");
+    printf("%d %d\n", a, b);
     return 0;
 }
-//Answer is: One
+//Output:
+//Two
+//10 10
+
