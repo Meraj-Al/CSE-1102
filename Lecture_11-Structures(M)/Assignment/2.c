@@ -6,7 +6,6 @@ Point-01: x = 2, y = 3
 Point-02: x = 5, y = 7
 Sample Output:
 Distance = 5.00
-
 */
 #include <stdio.h>
 #include <math.h>
