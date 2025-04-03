@@ -1,4 +1,4 @@
-//Write a program that reads a float number (i.e., a) and an integer (i.e., b) and displays the result of ab.
+//Write a program that reads a float number (i.e., a) and an integer (i.e., b) and displays the result of a to the power b.
 
 #include <stdio.h>
 int main()
