@@ -8,3 +8,4 @@ int main()
         b = b*b;
     return 0;
 }
+//The loop executes 2 times before  reaches , which matches , causing the loop to exit.
