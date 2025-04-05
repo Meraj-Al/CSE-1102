@@ -33,3 +33,65 @@ int main() {
 
     return 0;
 }
+Step-by-Step Example:
+Let's say the user enters N = 6.
+
+First Input:
+
+The user is asked to enter a number greater than 3. The user enters 6.
+
+Initialization:
+
+val = 0 (accumulating variable for the result).
+
+a = 1 (to alternate the signs).
+
+Calculation Loop:
+
+Iteration 1 (i = 1):
+
+val += a / 1 → val = 0 + 1/1 = 1.0.
+
+After this iteration, a = -1 (alternate the sign).
+
+Iteration 2 (i = 2):
+
+val += a / 2 → val = 1.0 - 1/2 = 1.0 - 0.5 = 0.5.
+
+After this iteration, a = 1 (alternate the sign).
+
+Iteration 3 (i = 3):
+
+val += a / 3 → val = 0.5 + 1/3 ≈ 0.5 + 0.3333 = 0.8333.
+
+After this iteration, a = -1 (alternate the sign).
+
+Iteration 4 (i = 4):
+
+val += a / 4 → val = 0.8333 - 1/4 = 0.8333 - 0.25 = 0.5833.
+
+After this iteration, a = 1 (alternate the sign).
+
+Iteration 5 (i = 5):
+
+val += a / 5 → val = 0.5833 + 1/5 = 0.5833 + 0.2 = 0.7833.
+
+After this iteration, a = -1 (alternate the sign).
+
+Iteration 6 (i = 6):
+
+val += a / 6 → val = 0.7833 - 1/6 ≈ 0.7833 - 0.1667 = 0.6166.
+
+After this iteration, a = 1 (alternate the sign).
+
+Final Result:
+
+After the loop completes, the result is approximately 0.6166.
+
+Output:
+
+The result is displayed using printf("Val = %e\n", val);, which prints the result in scientific notation.
+
+Output for N = 6:
+Enter number > 3: 6
+Val = 6.166667e-01
