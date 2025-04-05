@@ -3,15 +3,19 @@ enters 0, the insertion of numbers should terminate. Note that the number 0 must
 not be displayed.*/
 
 #include <stdio.h>
-int main()
-{
-    int i = 1;
-    while(i != 0)
-    {
+
+int main() {
+    int num;
+    
+    do {
         printf("Enter number: ");
-        scanf("%d", &i);
-        if(i != 0)
-            printf("Num = %d\n", i);
-    }
+        scanf("%d", &num);
+        if (num != 0) {
+            printf("Num = %d\n", num);
+        }
+    } while (num != 0);
+
+    printf("Program terminated.\n");
     return 0;
 }
+
