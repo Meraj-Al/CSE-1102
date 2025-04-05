@@ -2,23 +2,34 @@
 to enter an integer greater than 3.*/
 
 #include <stdio.h>
-int main()
-{
+
+int main() {
     int i, num;
     double a, val;
-    do
-    {
+
+    // Using a for loop to ensure num > 3
+    for(;;) {  // Infinite loop
         printf("Enter number > 3: ");
         scanf("%d", &num);
+        
+        // If num is greater than 3, break out of the loop
+        if(num > 3) {
+            break;
+        }
     }
-    while(num <= 3);
+
+    // Initialize the result and alternating sign factor
     val = 0;
     a = 1;
-    for(i = 1; i <= num; i++)
-    {
-        val += a/i;
-        a = -a;
+
+    // Calculate the alternating harmonic sum
+    for(i = 1; i <= num; i++) {
+        val += a / i;  // Add or subtract the fraction
+        a = -a;        // Alternate the sign
     }
+
+    // Print the result in scientific notation
     printf("Val = %e\n", val);
+
     return 0;
 }
