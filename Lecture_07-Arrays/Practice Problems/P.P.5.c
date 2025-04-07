@@ -1,24 +1,32 @@
 /*
-Write a program that creates an identity 6×6 array and displays its elements as an
-identity 6×6 matrix in algebra form. (Note: In math, an identity matrix has 1’s on the
-main diagonal’s elements and 0’s everywhere else.)
+Write a program that creates an identity 6Ã—6 array and displays its elements as an
+identity 6Ã—6 matrix in algebra form. (Note: In math, an identity matrix has 1â€™s on the
+main diagonalâ€™s elements and 0â€™s everywhere else.)
 */
 #include <stdio.h>
-#define SIZE 6
-int main()
-{
-    int i, j, arr[SIZE][SIZE] = {0}; /* Initialize the arr elements
-with 0. */
-    for(i = 0; i < SIZE; i++)
-    {
-        for(j = 0; j < SIZE; j++)
-        {
-            if(i == j) /* Check if it is an element of the main diagonal.
-*/
-                arr[i][j] = 1;
-            printf("%3d", arr[i][j]);
+
+int main() {
+    int i, j;
+    int identity[6][6];
+
+    // Fill the identity matrix
+    for(i = 0; i < 6; i++) {
+        for(j = 0; j < 6; j++) {
+            if(i == j)
+                identity[i][j] = 1; // main diagonal
+            else
+                identity[i][j] = 0; // everything else
         }
-        printf("\n"); /* Add it to separate the array rows. */
     }
+
+    // Display the identity matrix
+    for(i = 0; i < 6; i++) {
+        for(j = 0; j < 6; j++) {
+            printf("%d ", identity[i][j]);
+        }
+        printf("\n");
+    }
+
     return 0;
 }
+
