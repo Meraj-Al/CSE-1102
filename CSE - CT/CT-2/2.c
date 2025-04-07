@@ -3,9 +3,6 @@ Q2. C Program to Read Date in Two Formats
 
 We need to display it in both dd/mm/yyyy and dd-mm-yyyy format.
 
-c
-Copy
-Edit
 #include <stdio.h>
 
 int main() {
