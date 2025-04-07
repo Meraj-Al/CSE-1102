@@ -1,7 +1,4 @@
 Q4. Output of the Program
-c
-Copy
-Edit
 #include <stdio.h>
 
 int main() {
@@ -26,8 +23,5 @@ b++ → post-increment, so comparison uses b = 9, then b becomes 10
 if (10 == 9) → false, so it goes to the else block
 
 Output:
-nginx
-Copy
-Edit
 Two
 10 10
