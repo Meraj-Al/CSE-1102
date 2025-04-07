@@ -21,4 +21,9 @@ arr[1] = arr[0]+arr[2]+1 = 20+0+1 = 21;
 As a result, the values of arr[0], … arr[3] become equal from 20 to 23. What about
 the value of the last element?
 arr[4] becomes equal to arr[3], plus one, plus the random value that exists in
-the four-byte memory block following the address of arr[4].*/
+the four-byte memory block following the address of arr[4].
+
+The final values of arr are:
+
+{20, 21, 22, 23, ?} (undefined behavior at arr[4] due to accessing out-of-bounds memory).
+*/
