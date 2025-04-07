@@ -62,5 +62,14 @@ points to a[3]. Recall from Chapter 4 that if an operand is false the rest operï
 ands are not checked and the value of the expression becomes 0. Therefore,
 the loop terminates. Since the term !*ptr2++; is not checked, ptr2 is not
 increased.
+
+Pointer Arithmetic:
+ptr1 - a gives the number of elements between ptr1 and the start of a.
+
+ptr1 is pointing to a[3], so ptr1 - a = 3.
+
+ptr2 - b gives the number of elements between ptr2 and the start of b.
+
+ptr2 is pointing to b[2], so ptr2 - b = 2
 As a result, since ptr1 points to a[3] and ptr2 points to a[2], the program
 displays 3 2.*/
