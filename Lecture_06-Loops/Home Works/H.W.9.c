@@ -1,3 +1,4 @@
+//Chenck prime number using loop
 #include <stdio.h>
 
 int main() {
