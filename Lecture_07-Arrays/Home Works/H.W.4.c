@@ -11,7 +11,7 @@ int main() {
 
     temp = arr[n - 1]; // Store last element
     for (int i = n - 1; i > 0; i--) {
-        arr[i] = arr[i - 1];
+        arr[i] = arr[i - 1];//Shift Elements to the Right
     }
     arr[0] = temp; // Move last element to front
 
