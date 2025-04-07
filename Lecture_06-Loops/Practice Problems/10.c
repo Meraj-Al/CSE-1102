@@ -13,7 +13,7 @@ int main() {
         scanf("%d", &num);
         
         // If num is greater than 3, break out of the loop
-        if(num > 3) {
+        if(num < 3) {
             break;
         }
     }
