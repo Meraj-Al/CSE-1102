@@ -1,3 +1,17 @@
+/*
+1    2    3    6    36    648    .....
+Here the first three numbers are fixed and then each number is the multiplication of the previous three numbers; for example, the 4th number is the multiplication of the first three numbers (1 * 2 * 3 = 6). Now write a full C program using recursion to find the Nth number from the given sequence.
+
+Input: An integer N (0 < N < 100).
+Output: Nth number from the given sequence.
+
+Sample Input
+6
+
+Sample Output
+648
+
+*/
 #include <stdio.h>
 
 // Recursive function to find the Nth number in the sequence
