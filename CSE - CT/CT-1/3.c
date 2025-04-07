@@ -75,4 +75,29 @@ Prompts the user to enter the value of N.
 Validates the input to ensure N is between 1 and 100.
 
 Calls the findNthNumber function to find the Nth number and prints the result.
+
+✅ How It Works:
+Let's walk through an example for n = 6:
+
+findNthNumber(6):
+
+Calls findNthNumber(5), which calls findNthNumber(4).
+
+findNthNumber(4):
+
+Calls findNthNumber(3), findNthNumber(2), and findNthNumber(1).
+
+Returns 6 (since 1 * 2 * 3 = 6).
+
+findNthNumber(5):
+
+Calls findNthNumber(4), findNthNumber(3), and findNthNumber(2).
+
+Returns 36 (since 6 * 3 * 2 = 36).
+
+findNthNumber(6):
+
+Calls findNthNumber(5), findNthNumber(4), and findNthNumber(3).
+
+Returns 648 (since 36 * 6 * 3 = 648).
 */
