@@ -4,19 +4,25 @@ the return value.
 */
 
 #include <stdio.h>
-double area(double radius);
-int main()
-{
-double len;
-do
-{
-printf("Enter radius: ");
-scanf("%lf", &len);
-} while(len <= 0);
-printf("Circle area is %f\n", area(len));
-return 0;
+#define PI 3.14
+
+// Function to calculate area of a circle
+float calculateArea(float radius) {
+    return PI * radius * radius;
 }
-double area(double radius)
-{
-return 3.14*radius*radius;
+
+int main() {
+    float radius, area;
+
+    // Get radius from user
+    printf("Enter the radius of the circle: ");
+    scanf("%f", &radius);
+
+    // Call function and store result
+    area = calculateArea(radius);
+
+    // Display area
+    printf("The area of the circle is: %.2f\n", area);
+
+    return 0;
 }
