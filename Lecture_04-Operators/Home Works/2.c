@@ -28,3 +28,20 @@ OR with original → 111111 (decimal 63)
 Result: 63 (binary 111111).
 This is the largest number with all bits set below the original highest bit.
 */
+/*#include <stdio.h>
+
+int main() {
+    unsigned int n, power = 1;
+
+    printf("Enter a positive integer: ");
+    scanf("%u", &n);
+
+    // Keep multiplying by 2 until we reach or exceed n
+    while (power < n) {
+        power *= 2;
+    }
+
+    printf("Next highest power of 2 is: %u\n", power);
+    return 0;
+}
+*/
