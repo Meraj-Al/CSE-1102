@@ -33,6 +33,7 @@ int main() {
 
     return 0;
 }
+/*
 Step-by-Step Example:
 Let's say the user enters N = 6.
 
@@ -95,3 +96,4 @@ The result is displayed using printf("Val = %e\n", val);, which prints the resul
 Output for N = 6:
 Enter number > 3: 6
 Val = 6.166667e-01
+*/
