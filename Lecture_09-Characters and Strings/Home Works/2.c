@@ -11,8 +11,6 @@ int main() {
 }
 /*
 ✅ Sample Output:
-yaml
-Copy code
 Lowercase: a (97)   Uppercase: A (65)
 Lowercase: b (98)   Uppercase: B (66)
 ...
