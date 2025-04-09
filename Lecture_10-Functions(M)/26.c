@@ -2,20 +2,28 @@
 #include <stdio.h>
 #include <string.h>
 
-int isPalindrome(char *str, int left, int right) {
-    if (left >= right) return 1;  // Base case
-    if (str[left] != str[right]) return 0;  // Mismatch case
-    return isPalindrome(str, left + 1, right - 1);  // Recursive call
+int isPalindrome(char str[], int i, int j) {
+    if (i >= j)
+        return 1;  // Base case: done checking
+    if (str[i] != str[j])
+        return 0;  // Mismatch found
+    return isPalindrome(str, i + 1, j - 1);  // Check next pair
 }
 
 int main() {
-    char str[] = "madam";
+    char str[101];
+
+    printf("Enter a string: ");
+    scanf("%s", str);  // Read a word (no spaces)
+
     if (isPalindrome(str, 0, strlen(str) - 1))
-        printf("The string is a palindrome\n");
+        printf("Palindrome\n");
     else
-        printf("The string is not a palindrome\n");
+        printf("Not a palindrome\n");
+
     return 0;
 }
+
 /*
 Steps to Solve:
 Compare the first and last characters.
