@@ -1,4 +1,4 @@
-//Write a program that reads a positive integer and displays the maximum positive integer n for which the sum m 1 to the power 2 + 2 to the power 2 + 3 to the power 2 + ... + n2 is less than the given number.
+//Write a program that reads a positive integer and displays the maximum positive integer n for which the sum 1 to the power 2 + 2 to the power 2 + 3 to the power 2 + ... + n2 is less than the given number.
 
 #include <stdio.h>
 int main()
