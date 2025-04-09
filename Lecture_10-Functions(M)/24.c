@@ -1,5 +1,5 @@
-//The function checks if the current index contains the target value.
-//If not, it moves to the next index using recursion until it finds the value or reaches the end of the array.
+//Write a recursive function to count the digits of a positive integer (do also for sum of digits)
+
 #include <stdio.h>
 
 int countDigits(int n) {
