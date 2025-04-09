@@ -16,6 +16,7 @@ if(sum >= num)
 break;
 i++;
 }
-printf("The last number is = %d\n", i-1);
+printf("The last number is = %d\n", i-1); /* The number i−1 is the last number where the value of sum is still less than the given
+number. */
 return 0;
 }
