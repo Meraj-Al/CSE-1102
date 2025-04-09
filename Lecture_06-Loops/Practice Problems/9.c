@@ -3,26 +3,26 @@
 #include <stdio.h>
 
 int main() {
-    int b, exp, tmp;
-    double a, val = 1.0;
+    double a, result = 1.0;
+    int b, i, exp;
 
     printf("Enter number and power: ");
-    scanf("%lf%d", &a, &b);
+    scanf("%lf %d", &a, &b);
 
-    exp = (b < 0) ? -b : b;  // Convert exponent to positive for calculations
+    exp = (b < 0) ? -b : b;
 
-    for (tmp = 0; tmp < exp; tmp++) {  // Loop iterates exp times
-        val *= a;
+    for (i = 0; i < exp; i++) {
+        result *= a;
     }
 
-    // Handle negative exponent case
     if (b < 0)
-        val = 1.0 / val;
+        result = 1.0 / result;
 
-    printf("%f power %d = %f\n", a, b, val);
+    printf("%.2f power %d = %.5f\n", a, b, result);
 
     return 0;
 }
+
 /*
 Step-by-Step Walkthrough with Example
 Let’s assume the following input for our example:
@@ -64,3 +64,29 @@ Step 5: Output
 The program prints the result:
 
 2.000000 power 3 = 8.000000
+*/
+/*
+#include <stdio.h>
+#include <math.h>  // Required for pow()
+
+int main() {
+    float a;
+    int b;
+    double result;
+
+    // Input
+    printf("Enter base (float): ");
+    scanf("%f", &a);
+
+    printf("Enter exponent (int): ");
+    scanf("%d", &b);
+
+    // Calculate power
+    result = pow(a, b);
+
+    // Output result
+    printf("%.2f to the power %d is %.2lf\n", a, b, result);
+
+    return 0;
+}
+*/
