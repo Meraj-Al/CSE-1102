@@ -11,7 +11,7 @@ This repository contains all programming problems and solutions from the CSE-110
 - [Lecture 07: Arrays](#lecture-07-arrays)
 - [Lecture 08: Pointers](#lecture-08-pointers)
 - [Lecture 09: Characters and Strings](#lecture-09-characters-and-strings)
-- [Lecture 10: Functions](#lecture-10-functions)
+- [Lecture 10: Functions](https://github.com/M-F-Tushar/CSE-1102/tree/main/Lecture_10-Functions)
 
 ## Instructors 👨‍🏫
 
