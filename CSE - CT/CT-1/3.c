@@ -12,6 +12,7 @@ Sample Output
 648
 
 */
+
 #include <stdio.h>
 
 // Recursive function to find the Nth number in the sequence
