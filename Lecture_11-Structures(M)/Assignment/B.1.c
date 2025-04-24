@@ -7,6 +7,7 @@ Hours of Work
 (Per Day)           8               10              >=12
 Increase in salary $50              $100            $150
 */
+
 #include <stdio.h>
 
 // Define structure
