@@ -1,5 +1,5 @@
 Q2: Write a program that produces the output shown in Fig. a, Also store the output in a 2D array and print in reverse as in Fig. b
-Fig. a Output:              Fig. b Output:
+Fig. a Output:              
 1  2  3  4
 4  3  4  5
 9  4  5  5
