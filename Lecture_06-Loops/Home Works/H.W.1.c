@@ -12,4 +12,8 @@ for(i = 0; i+j == 5; j++)
 printf("Val1 = %d Val2 = %d\n", i, j);
 return 0;
 }
-/* Output should be 4 2.*/
+/* Output should be:
+One
+Val1 = 4 Val2 = 2
+
+*/
