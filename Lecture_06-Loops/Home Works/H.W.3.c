@@ -4,10 +4,11 @@
 int main()
 {
     int i;
-    for(i = 0; i ? 0 : i+1; i++)//If i is not zero print zero or else print i+1
+    for(i = 0; i ? 0 : i+1; i++) // If i is not zero, condition is 0; else condition is i+1
         printf("%d\n", i);
     return 0;
 }
+
 /*
 Output is:
 0
