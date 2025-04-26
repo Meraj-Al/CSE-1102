@@ -24,46 +24,82 @@ int main() {
 }
 
 /*
-Step-by-Step Walkthrough with Example
-Let’s assume the following input for our example:
+📖 Step-by-Step Walkthrough with Example
+Suppose we input:
+Enter number and power: 2 -3
+So:
+a = 2
+b = -3
 
-a = 2.0 (a float number)
+Step 1: Initialization
+double a, result = 1.0;
+int b, i, exp;
+a is a double.
 
-b = 3 (an integer)
+result starts as 1.0 (important for multiplication).
 
-Input:
-Enter number and power: 2 3
-Step 1: Initial Setup
-a = 2.0
+b, i, and exp are integers.
 
-b = 3
+Step 2: Input
+scanf("%lf %d", &a, &b);
+User enters: 2 and -3.
+Now:
 
-val = 1.0 (this variable will store the result)
+a = 2
+b = -3
+Step 3: Handle Negative Exponent
 
-exp is calculated as exp = (b < 0) ? -b : b. Since b = 3 is not negative, exp = 3.
+exp = (b < 0) ? -b : b;
+Since b = -3, which is < 0,
 
-Step 2: Loop for Positive Exponent (exp = 3)
-The program now enters the for loop where it calculates a^b.
+exp = -(-3) = 3.
 
-First Iteration (tmp = 0):
-val *= a → val = 1.0 * 2.0 = 2.0
+Now:
 
-Second Iteration (tmp = 1):
-val *= a → val = 2.0 * 2.0 = 4.0
+exp = 3
 
-Third Iteration (tmp = 2):
-val *= a → val = 4.0 * 2.0 = 8.0
+✅ (This allows the for loop to multiply 3 times.)
 
-Step 3: Final Value After Loop
-After completing the loop (since exp = 3, the loop runs 3 times), the value of val is 8.0.
+Step 4: Loop to Calculate Positive Power
 
-Step 4: Handle Negative Exponent (if applicable)
-The program checks if b is negative. If it were negative, the program would set val = 1.0 / val. Since b = 3 is positive, this step is skipped.
+for (i = 0; i < exp; i++) {
+    result *= a;
+}
+Loop runs 3 times:
 
-Step 5: Output
-The program prints the result:
+i	result	        Calculation
+0	1.0 × 2 = 2.0	result *= 2
+1	2.0 × 2 = 4.0	result *= 2
+2	4.0 × 2 = 8.0	result *= 2
+After loop:
 
-2.000000 power 3 = 8.000000
+result = 8.0
+
+✅ (This is 2^3.)
+
+Step 5: Handle Negative Exponent Again
+if (b < 0)
+    result = 1.0 / result;
+Since original b = -3 (negative),
+We compute:
+
+result = 1.0 / 8.0 = 0.125
+✅ (This matches 2^-3 = 1/8 = 0.125.)
+
+Step 6: Print the Output
+
+printf("%.2f power %d = %.5f\n", a, b, result);
+Values:
+
+a = 2
+
+b = -3
+
+result = 0.12500
+
+Output:
+
+2.00 power -3 = 0.12500
 */
 /*
 #include <stdio.h>
