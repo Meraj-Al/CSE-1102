@@ -1,6 +1,5 @@
 //Write a program that reads the radius of a circle and displays its area and perimeter.
 #include <stdio.h>
-
 int main()
 {
     float radius;
