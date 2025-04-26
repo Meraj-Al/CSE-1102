@@ -7,7 +7,6 @@ int main()
     int min,pass;
     float stu_mark1, stu_mark2, stu_mark3;
 
-
     printf("Enter minimum score:");
     scanf("%d",&min);
 
