@@ -7,5 +7,4 @@ int main()
     printf("V1:%d V2:%d\n", i+i, i);
     return 0;
 }
-
 /*Output is V1:400 V2:200*/
